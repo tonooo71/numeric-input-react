@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import NumericInput from "../../src";
+import NumericInput from "../src";
 
 const App: React.FC = () => {
   const [val, setVal] = useState(0);
